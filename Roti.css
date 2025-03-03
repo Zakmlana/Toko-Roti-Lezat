@@ -1,0 +1,72 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: chocolate;
+    background-image: url(rover.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header {
+    background-color: chocolate;
+    padding: 20px;
+    text-align: center;
+}
+
+header .kuma {
+    background-color: aquamarine;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: white;
+}
+
+.produk {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.daftar-produk {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.produk-item {
+    width: 250px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.produk-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.beli-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: chocolate;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}

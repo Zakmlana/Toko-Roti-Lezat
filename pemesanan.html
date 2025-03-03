@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Roti</title>
+    <link rel="stylesheet" href="pesanan.css">
+</head>
+<body>
+    <header>
+        <h1>Pemesanan Roti</h1>
+    </header>
+
+    <section class="pemesanan">
+        <h2>Detail Pemesanan</h2>
+        <form id="form-pemesanan">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required><br><br>
+
+            <label for="alamat">Alamat:</label>
+            <textarea id="alamat" name="alamat" required></textarea><br><br>
+
+            <label for="telepon">Nomor Telepon:</label>
+            <input type="tel" id="telepon" name="telepon" required><br><br>
+
+            <label for="produk">Produk:</label>
+            <input type="text" id="produk" name="produk" readonly><br><br>
+
+            <label for="jumlah">Jumlah:</label>
+            <input type="number" id="jumlah" name="jumlah" value="1" min="1"><br><br>
+
+            <button type="submit">Konfirmasi Pemesanan</button>
+        </form>
+    </section>
+
+    <script src="pesanan.js"></script>
+</body>
+</html>
